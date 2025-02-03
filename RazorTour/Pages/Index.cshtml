@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+  //string []Animals={"Dog","Cat"," Mouse"};
+}
+<div class="text-center">
+    <h5 class="display-2">
+        
+        @foreach(var item in Model.Animal){
+            <table>
+                <tr>
+                    <td>@item</td>
+                </tr>
+            </table>
+        }
+         </h5>
+</div>
+<h2>Enter Some Text</h2>
+
+<!-- Form to submit data -->
+<form method="post">
+    <input type="text" asp-for="UserInput" placeholder="Enter something" />
+    <button type="submit">Submit</button>
+</form>
+@Model.Announce
+<!-- Display the message after form submission -->
+@if (Model.Message != null)
+{
+    <div>
+        <strong>Message:</strong> @Model.Message
+    </div>
+}
+<partial name="HelpWidget"/>
+

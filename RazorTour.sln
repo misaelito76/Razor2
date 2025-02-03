@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorTour", "RazorTour\RazorTour.csproj", "{93A5CC81-50FC-4E22-A9D5-B2468F3984ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{A621576D-5ABD-499A-915C-E15343AED018}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93A5CC81-50FC-4E22-A9D5-B2468F3984ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A5CC81-50FC-4E22-A9D5-B2468F3984ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A5CC81-50FC-4E22-A9D5-B2468F3984ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A5CC81-50FC-4E22-A9D5-B2468F3984ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A621576D-5ABD-499A-915C-E15343AED018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A621576D-5ABD-499A-915C-E15343AED018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A621576D-5ABD-499A-915C-E15343AED018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A621576D-5ABD-499A-915C-E15343AED018}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

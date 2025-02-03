@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "RazorTour/1.0.0": {
+        "dependencies": {
+          "Gherkin": "30.0.4"
+        },
+        "runtime": {
+          "RazorTour.dll": {}
+        }
+      },
+      "Gherkin/30.0.4": {
+        "runtime": {
+          "lib/net8.0/Gherkin.dll": {
+            "assemblyVersion": "30.0.4.0",
+            "fileVersion": "30.0.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RazorTour/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Gherkin/30.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9tkI4McfBFbKnlKG9jW6An2VWFnhAgfyYWS7h1A61MvvARW4HCIkPsK+4VmY36S7WJwXTG5NLllzRxBepxvQZA==",
+      "path": "gherkin/30.0.4",
+      "hashPath": "gherkin.30.0.4.nupkg.sha512"
+    }
+  }
+}

@@ -27,7 +27,7 @@ jobs:
     #   run: dotnet build --configuration Release  # Build the app
 
     - name: Run tests
-      run: dotnet test ./Testing --configuration Release --no-build  # Specify the path to your test project
+      run: dotnet test ./Razor2/Testing --configuration Release --no-build  # Specify the path to your test project
 
     # - name: Publish the app
     #   run: dotnet publish --configuration Release --output ./publish  # Publish the app for deployment (if needed)

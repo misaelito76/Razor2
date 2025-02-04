@@ -10,8 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # You can use windows-latest or macos-latest if preferred
-
+    runs-on: ubuntu-latest 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2  # Check out the code from the repository

@@ -19,7 +19,7 @@ jobs:
     - name: Set up .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '6.0'  # Or any version your app uses
+        dotnet-version: '9.x'  # Or any version your app uses
     - name: Restore dependencies
       run: dotnet restore  # Restore NuGet dependencies
 

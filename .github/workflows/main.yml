@@ -21,12 +21,18 @@ jobs:
         dotnet-version: '9.0'  # Or any version your app uses
     - name: Restore dependencies
       run: dotnet restore  # Restore NuGet dependencies
-
+   
     # - name: Build the application
     #   run: dotnet build --configuration Release  # Build the app
 
     - name: Run tests
       run: dotnet test ./Testing/Testing.csproj 
+  goodbye:
+     runs-on: ubuntu-latest 
+     steps: 
+     - name: Goodbye
+       run: echo"Bye bye Mundo"
+     
 
     # - name: Publish the app
     #   run: dotnet publish --configuration Release --output ./publish  # Publish the app for deployment (if needed)

@@ -24,9 +24,11 @@ jobs:
    
     # - name: Build the application
     #   run: dotnet build --configuration Release  # Build the app
-
-    - name: Run tests
-      run: dotnet test ./Testing/Testing.csproj 
+  Testing:
+     runs-on: ubuntu-latest 
+     steps:
+     - name: Run tests
+       run: dotnet test ./Testing/Testing.csproj 
   goodbye:
      runs-on: ubuntu-latest 
      steps: 

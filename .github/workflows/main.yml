@@ -22,13 +22,11 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore  # Restore NuGet dependencies
    
-    # - name: Build the application
-    #   run: dotnet build --configuration Release  # Build the app
-  Testing:
-     runs-on: ubuntu-latest 
-     steps:
-     - name: Run tests
-       run: dotnet test ./Testing/Testing.csproj 
+    - name: Build the application
+      run: dotnet build 
+  
+    - name: Run tests
+      run: dotnet test ./Testing/Testing.csproj 
   goodbye:
      runs-on: ubuntu-latest 
      steps: 
